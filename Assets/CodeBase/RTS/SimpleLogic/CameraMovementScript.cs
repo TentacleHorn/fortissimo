@@ -12,7 +12,7 @@ namespace CodeBase.RTS.SimpleLogic
 		[Space(5f)]
 		[SerializeField] [ReadOnly(false)] private int _activePart;
 		[SerializeField] [ReadOnly(false)] private float _cameraSpeed;
-
+		
 		private Camera _camera;
 
 		private void Awake()

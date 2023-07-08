@@ -1,0 +1,16 @@
+{
+    "name": "RTS.Entities",
+    "rootNamespace": "",
+    "references": [
+        "GUID:79c1eeb738f491d47ad4cfb95c122e26"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

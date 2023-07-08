@@ -1,0 +1,16 @@
+{
+    "name": "RTS.Factories",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1031a268ead23694da1b464f1c9268d9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
