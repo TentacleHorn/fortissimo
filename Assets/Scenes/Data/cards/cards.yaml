@@ -1,0 +1,5 @@
+﻿- CardName: Test
+  FlavorText: I'm the devil, I like metal!
+  Description: Fast tempo, upgrades will be earned faster. @adverse(powerful demons will explode into the battlefield to fight against you)
+  Effect: spawnSoldier
+  Type: spell
