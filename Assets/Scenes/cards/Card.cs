@@ -33,10 +33,8 @@ namespace Scenes
 
         public String CardsPath = Path.Join(Global.ResourcePath, "cards");
 
-        public void Load()
+        public void FetchCards()
         {
-            if (IsLoaded) return;
-
             Debug.Log("Reading cards yml");
             var logStart = DateTime.Now;
             
@@ -60,11 +58,15 @@ namespace Scenes
                     {
                         throw new Exception($"card with the name {c.CardName} already exists");
                     }
-                    Debug.Log($"added card {c.CardName}");
                     Cards.Add(c.CardName, c);
                 });
+                Debug.Log($"Reading cards yml finished in {DateTime.Now - logStart}ms");
             }
-            Debug.Log($"Reading cards yml finished in {DateTime.Now - logStart}ms");
+        }
+        public void Load()
+        {
+            if (IsLoaded) return;
+            FetchCards();
             IsLoaded = true;
         }
 
@@ -76,7 +78,7 @@ namespace Scenes
                 and check against the table before loading into yaml.
                 also add benchmark of loading time first.
             */
-            Load();
+            FetchCards();
         }
     }
 
