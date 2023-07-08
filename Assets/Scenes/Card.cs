@@ -7,6 +7,8 @@ namespace Scenes
     public class Card : MonoBehaviour
     {
         public string name;
+        
+        /**
         private void Awake()
         {
             using (var reader = new StreamReader(filepath)) {
@@ -16,6 +18,7 @@ namespace Scenes
                 // the rest
             }
         }
+        **/
         
         // private void Start()
         // {
