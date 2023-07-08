@@ -1,7 +1,7 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
+using static CodeBase.Cards.Card.SingletonCardBank;
 
-namespace Scenes
+namespace CodeBase.Cards.Card
 {
     public class CardBankRefresher : MonoBehaviour
     {
@@ -16,10 +16,9 @@ namespace Scenes
 
         public void Update()
         {
-            
-            if (lastChecked == 0f || (Time.time - lastChecked)*1000 > refreshRatems)
+            if (lastChecked == 0f || (Time.time - lastChecked) * 1000 > refreshRatems)
             {
-                Card.GlobalCardBank.CheckForUpdates();
+                GlobalCardBank.CheckForUpdates();
                 lastChecked = Time.time;
             }
         }

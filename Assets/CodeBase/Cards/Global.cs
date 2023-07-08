@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Scenes
+namespace CodeBase.Cards.Card
 {
     public class Global
     {

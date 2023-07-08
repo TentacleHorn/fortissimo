@@ -1,9 +1,8 @@
 {
-    "name": "RTS.Factories",
+    "name": "Cards",
     "rootNamespace": "",
     "references": [
-        "GUID:1031a268ead23694da1b464f1c9268d9",
-        "GUID:5354ad660386ff44e8208ea8ab188599"
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
