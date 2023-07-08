@@ -1,0 +1,12 @@
+﻿---
+- name: Metal
+  flavorText: I'm the devil, I like metal!
+  description: Fast tempo, upgrades will be earned faster. @adverse(powerful demons
+    will explode into the battlefield to fight against you)
+  effect: |-
+    add cards to your hand:
+    2x sick riff
+  type: genre
+  additional:
+    tempo: 144
+    bars: 2
