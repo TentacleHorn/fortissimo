@@ -1,0 +1,16 @@
+{
+    "name": "RTS",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4ad05a0fd97498e4683434dc40692e5b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
