@@ -9,6 +9,8 @@ namespace CodeBase.RTS.SimpleLogic
 		[SerializeField] [ReadOnly(true)] private Vector2 _mousePosition;
 		[SerializeField] [ReadOnly(true)] private int _maxResolutionWidth;
 		[SerializeField] [ReadOnly(true)] private int _mouseActiveCoords;
+		[Space(5f)]
+		[SerializeField] [ReadOnly(false)] private int _activePart;
 		[SerializeField] [ReadOnly(false)] private float _cameraSpeed;
 
 		private Camera _camera;
@@ -17,7 +19,7 @@ namespace CodeBase.RTS.SimpleLogic
 		{
 			_camera = Camera.main;
 			_maxResolutionWidth = Screen.currentResolution.width;
-			_mouseActiveCoords = _maxResolutionWidth / 10;
+			_mouseActiveCoords = _maxResolutionWidth / _activePart;
 		}
 
 		private void FixedUpdate()
