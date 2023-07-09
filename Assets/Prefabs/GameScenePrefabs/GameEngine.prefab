@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8323640756636336859}
   - component: {fileID: 6652979203967439475}
-  - component: {fileID: -2349162625386196330}
+  - component: {fileID: 8598579563343719557}
   m_Layer: 0
   m_Name: GameEngine
   m_TagString: Engine
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0efa408f66bd40c18cce1fb3deef4353, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-2349162625386196330
+--- !u!114 &8598579563343719557
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -54,6 +54,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 2518022786635439717}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2495c89fc0b54636b6fcab8cf5c4d89e, type: 3}
+  m_Script: {fileID: 11500000, guid: 234acb4fb7404a63a923a34b282ec3d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _spawnCD: 3.5
+  _spawnpoint: {fileID: 0}

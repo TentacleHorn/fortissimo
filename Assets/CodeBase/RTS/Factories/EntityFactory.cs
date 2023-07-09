@@ -1,26 +1,22 @@
-﻿using CodeBase.RTS.Factories.Interfaces;
+﻿using CodeBase.RTS.Entities.Interfaces;
+using CodeBase.RTS.Factories.Interfaces;
 using UnityEngine;
 using UnityEngine.Pool;
 
 namespace CodeBase.RTS.Factories
 {
-	public class EntityFactory : MonoBehaviour, IGameObjectFactory
+	public class EntityFactory : MonoBehaviour, IEntityFactory
 	{
-		private ObjectPool<GameObject> _pool;
+		private ObjectPool<IEntity> _pool;
 		
-		public GameObject Create()
+		public IEntity Create()
 		{
-			return null;
+			IEntity entity = _pool.Get();
+			return entity;
 		}
 
 		private void Awake()
 		{
-			_pool = new(OnCreate);
-		}
-
-		private GameObject OnCreate()
-		{
-			return null;
 		}
 	}
 }

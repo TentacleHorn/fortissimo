@@ -1,10 +1,10 @@
 {
-    "name": "Factories.Interfaces",
-    "rootNamespace": "",
+    "name": "TNRD.SerializableInterface.Editor",
+    "rootNamespace": "TNRD",
     "references": [
-        "GUID:79c1eeb738f491d47ad4cfb95c122e26"
+        "TNRD.SerializableInterface"
     ],
-    "includePlatforms": [],
+    "includePlatforms": ["Editor"],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

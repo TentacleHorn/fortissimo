@@ -1,9 +1,7 @@
 {
-    "name": "Factories.Interfaces",
-    "rootNamespace": "",
-    "references": [
-        "GUID:79c1eeb738f491d47ad4cfb95c122e26"
-    ],
+    "name": "TNRD.SerializableInterface",
+    "rootNamespace": "TNRD",
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

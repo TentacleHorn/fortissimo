@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01fb59506c20453e95e6951048c0e407, type: 3}
-  m_Name: Melee
+  m_Name: MeleeEnemy
   m_EditorClassIdentifier: 
   Prefab: {fileID: 4508709375818965673, guid: 0a6660b7f5b387441a93393821d47f9a, type: 3}
   Health: 100
