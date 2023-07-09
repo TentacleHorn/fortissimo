@@ -19,8 +19,8 @@ namespace CodeBase.RTS.Spawning
 
 		private void Start()
 		{
-			StartCoroutine(SpawnCoroutine());
 			_waitFor = new WaitForSeconds(_spawnCD);
+			StartCoroutine(SpawnCoroutine());
 		}
 
 		private IEnumerator SpawnCoroutine()
