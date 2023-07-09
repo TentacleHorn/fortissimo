@@ -29,7 +29,7 @@ namespace CodeBase.RTS.SimpleLogic
 			ProcessMouseInput(_camera, _mousePosition, _maxResolutionWidth, _mouseActiveCoords, _cameraSpeed);
 			
 			#if UNITY_EDITOR
-			WriteMousePositionToDebug();
+			// WriteMousePositionToDebug();
 			#endif
 		}
 

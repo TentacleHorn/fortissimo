@@ -57,5 +57,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 234acb4fb7404a63a923a34b282ec3d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spawnCD: 3.5
+  _spawnCD: 8
   _spawnpoint: {fileID: 0}
+  _enemies: []
+  canSpawn: 0
