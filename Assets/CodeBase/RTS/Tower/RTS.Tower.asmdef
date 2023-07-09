@@ -2,7 +2,8 @@
     "name": "RTS.Tower",
     "rootNamespace": "",
     "references": [
-        "GUID:9e42bea4e5f26384699dc66151dee0d2"
+        "GUID:9e42bea4e5f26384699dc66151dee0d2",
+        "GUID:ee4a8c75baea4aa45a91de02ebef421e"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
