@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8323640756636336859}
   - component: {fileID: 6652979203967439475}
   - component: {fileID: 8598579563343719557}
+  - component: {fileID: -9043547386429551749}
   m_Layer: 0
   m_Name: GameEngine
   m_TagString: Engine
@@ -60,4 +61,16 @@ MonoBehaviour:
   _spawnCD: 8
   _spawnpoint: {fileID: 0}
   _enemies: []
-  canSpawn: 0
+  canSpawn: 1
+--- !u!114 &-9043547386429551749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2518022786635439717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2999a4eebebd4c9887c50176aa7a0dfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

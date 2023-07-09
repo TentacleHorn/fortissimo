@@ -36,7 +36,7 @@ namespace CodeBase.RTS.Spawning
 		{
 			EntityData enemyToSpawn = _enemies[Random.Range(0, _enemies.Length)];
 			GameObject prefab = enemyToSpawn.Prefab;
-			GameObject objOnScene = Instantiate(prefab, _spawnpoint.position, Quaternion.Euler(0, 180, 0), null);
+			GameObject objOnScene = Instantiate(prefab, _spawnpoint.position, _initRotation, null);
 			EntityBase entity = objOnScene.GetComponent<EntityBase>();
 			entity.IsPlayersEntity = false;
 			entity.Initiate(enemyToSpawn);
