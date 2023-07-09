@@ -1,0 +1,16 @@
+{
+    "name": "RTS.Tower",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9e42bea4e5f26384699dc66151dee0d2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
