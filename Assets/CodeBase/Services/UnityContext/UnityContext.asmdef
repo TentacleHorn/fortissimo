@@ -1,8 +1,8 @@
 {
-    "name": "Entities.Interfaces",
+    "name": "UnityContext",
     "rootNamespace": "",
     "references": [
-        "GUID:404600f84e1e8ec4a868f561b4f5d0c5"
+        "GUID:2efd5ee822de4eb45a1f01c7cd2fb956"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
