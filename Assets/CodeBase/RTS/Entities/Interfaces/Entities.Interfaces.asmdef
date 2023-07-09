@@ -2,7 +2,8 @@
     "name": "Entities.Interfaces",
     "rootNamespace": "",
     "references": [
-        "GUID:404600f84e1e8ec4a868f561b4f5d0c5"
+        "GUID:404600f84e1e8ec4a868f561b4f5d0c5",
+        "GUID:c99a57c275808cc47aba431f7a9f7609"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
